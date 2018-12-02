@@ -116,5 +116,5 @@ function getSinglePrediction(knn, currentCase) {
         }
     }
 
-    return predictedClass;
+    return nearestPoints;
 }
